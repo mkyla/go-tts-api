@@ -80,13 +80,15 @@ POST /tts
 
 ### 📁 Project Structure
 
+```
 go-tts-api/
-├── main.go # Server logic
-├── go.mod # Modules
-├── go.sum # Checksums
-├── LICENSE # BSD-3-Clause
-├── README.md # Docs
-└── models/ # Piper models
+├── main.go           # Server logic
+├── go.mod            # Modules
+├── go.sum            # Checksums
+├── LICENSE           # BSD-3-Clause
+├── README.md         # Docs
+└── models/           # Piper models (optional)
+```
 
 ### 🧩 Core Components
 
