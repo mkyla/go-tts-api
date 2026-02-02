@@ -2,11 +2,11 @@
 
 A lightweight and minimalist real-time text-to-speech web API developed in Go. It allows users to convert text to high-quality MP3 audio via HTTP POST requests, using the Piper neural TTS engine for offline synthesis.
 
-## 📖 Overview
+# 📖 Overview
 
 Go TTS API is a simple HTTP server built with Gin that provides text-to-speech functionality. It accepts JSON payloads with text and returns MP3 audio, leveraging Piper for natural-sounding speech without cloud dependencies.
 
-## 🎬 Demo
+# 🎬 Demo
 
 Start server: `go run main.go`
 
@@ -14,7 +14,7 @@ Curl: `curl -X POST http://localhost:8080/tts -H "Content-Type: application/json
 
 Play hello.mp3.
 
-## ✨ Features
+# ✨ Features
 
 ### 🔊 High-Quality TTS
 - Piper neural engine for realistic speech.
@@ -31,7 +31,7 @@ Play hello.mp3.
 - Easy integration.
 - Go-based reliability.
 
-## 📦 Installation
+# 📦 Installation
 
 ### 📋 Binary Releases
 
@@ -59,7 +59,7 @@ go build -o go-tts-api main.go
 
 Download Piper binary and model as in tts-rust README.
 
-## 📋 Usage Guide
+# 📋 Usage Guide
 
 - 🌐 Start: `./go-tts-api`
 - 🔄 Request: POST /tts with {"text": "your text"}
@@ -71,12 +71,12 @@ POST /tts
 - Body: {"text": "string"}
 - Response: MP3 audio
 
-## ⚙️ Configuration
+# ⚙️ Configuration
 
 - Port: 8080 (hardcoded)
 - Piper path: Assumes ./piper/piper
 
-## 🛠️ Development
+# 🛠️ Development
 
 ### 🧩 Core Components
 
@@ -109,10 +109,10 @@ go build -o go-tts-api main.go
 # Cross-compile
 GOOS=linux GOARCH=amd64 go build -o go-tts-api-linux main.go
 
-## 📄 License
+# 📄 License
 
 BSD-3-Clause
 
-## 📊 Badges
+# 📊 Badges
 
 ![License](https://img.shields.io/badge/license-BSD--3--Clause-blue)
