@@ -16,24 +16,24 @@ Play hello.mp3.
 
 # ✨ Features
 
-### 🔊 High-Quality TTS
+-🔊 High-Quality TTS
 - Piper neural engine for realistic speech.
 - MP3 output.
 - Offline processing.
 
-### 🚀 Lightweight and Efficient
+-🚀 Lightweight and Efficient
 - Gin for fast routing.
 - Low overhead.
 - Single binary deployable.
 
-### 🛠️ Developer-Friendly
+-🛠️ Developer-Friendly
 - RESTful API.
 - Easy integration.
 - Go-based reliability.
 
 # 📦 Installation
 
-### 📋 Binary Releases
+-📋 Binary Releases
 
 Download from [GitHub Releases](https://github.com/mkyla/go-tts-api/releases).
 
@@ -42,7 +42,7 @@ Download from [GitHub Releases](https://github.com/mkyla/go-tts-api/releases).
 - 🪟 Windows: amd64
 - 🍎 macOS: amd64, arm64
 
-### 🔧 Compile from Source
+-🔧 Compile from Source
 
 # Clone
 git clone https://github.com/mkyla/go-tts-api.git
@@ -55,7 +55,7 @@ go build -o go-tts-api main.go
 # Run
 ./go-tts-api
 
-### 📝 Setup Piper
+-📝 Setup Piper
 
 Download Piper binary and model as in tts-rust README.
 
@@ -65,7 +65,7 @@ Download Piper binary and model as in tts-rust README.
 - 🔄 Request: POST /tts with {"text": "your text"}
 - 💾 Response: MP3 binary
 
-### API Endpoints
+-API Endpoints
 
 POST /tts
 - Body: {"text": "string"}
@@ -78,18 +78,18 @@ POST /tts
 
 # 🛠️ Development
 
-### 🧩 Core Components
+-🧩 Core Components
 
 1. **main.go**: Gin server, /tts handler, Piper spawning.
 
-### 🛠️ Tech Stack
+-🛠️ Tech Stack
 
 - Backend: Go 1.21+
 - Framework: Gin
 - TTS: Piper
 - Build: Go toolchain
 
-### 💻 Development Setup
+-💻 Development Setup
 
 # 1. Install Go
 # (Assume installed)
@@ -101,7 +101,7 @@ cd go-tts-api
 # 3. Run
 go run main.go
 
-### 🔨 Building
+-🔨 Building
 
 # Local
 go build -o go-tts-api main.go
