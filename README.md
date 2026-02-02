@@ -78,18 +78,6 @@ POST /tts
 
 ## 🛠️ Development
 
-### 📁 Project Structure
-
-```
-go-tts-api/
-├── main.go           # Server logic
-├── go.mod            # Modules
-├── go.sum            # Checksums
-├── LICENSE           # BSD-3-Clause
-├── README.md         # Docs
-└── models/           # Piper models (optional)
-```
-
 ### 🧩 Core Components
 
 1. **main.go**: Gin server, /tts handler, Piper spawning.
